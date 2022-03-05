@@ -17,7 +17,9 @@ class CreateUpdatesTable extends Migration
             $table->id();
             $table->string('title')->nullable();
             $table->string('image')->nullable();
-            $table->string('content')->nullable();
+            $table->longText('content')->nullable();
+            $table->boolean('isExpand')->default(false);
+            $table->integer('computedHeight')->default(0);
             $table->timestamps();
         });
     }

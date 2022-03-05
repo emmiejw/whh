@@ -15,9 +15,14 @@ class UpdateController extends Controller
 
     public function store(Request $request): \Illuminate\Http\JsonResponse
     {
+        $image = $request->image;
+        $image_new_name = time().$image->getClientOriginalName();
+        $image->move('images/', $image_new_name);
+
         $update = new Update([
-            'title' => $request->input('title'),
-            'content' => $request->input('content')
+            'title'   => $request->input('title'),
+            'content' => $request->input('content'),
+            'image'   => $image_new_name,
         ]);
         $update->save();
         return response()->json('Update created!');

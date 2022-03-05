@@ -6,15 +6,15 @@
                     <div class="flex flex-wrap w-1/2">
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                 src="http://localhost/images/dishwasher.jpg">
+                                 src="../Pages/images/dishwasher.jpg">
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                 src="http://localhost/images/dementia.jpg">
+                                 src="../Pages/images/dementia.jpg">
                         </div>
                         <div class="w-full p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                 src="http://localhost/images/lady.png">
+                                 src="http://localhost/images/couple.jpg">
                         </div>
                     </div>
                     <div class="flex flex-wrap w-1/2">
@@ -24,11 +24,11 @@
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                 src="http://localhost/images/lady2.png">
+                                 src="../Pages/images/lady.png">
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                 src="http://localhost/images/man.jpg">
+                                 src="../Pages/images/man.jpg">
                         </div>
                     </div>
                 </div>
@@ -40,25 +40,7 @@
 <script>
 
 export default {
-    data: () => ({
-        images: [
-            'http://localhost/images/dishwasher.jpg',
-            'http://localhost/images/lady.png',
-            'http://localhost/images/man.jpg',
-            'http://localhost/images/lady3.jpg',
-        ],
-        active: 0
-    }),
-    mounted() {
-        let i = 0;
-        setInterval(() => {
-            if (i > this.images.length - 1) {
-                i = 0;
-            }
-            this.active = i;
-            i++;
-        }, 3000);
-    }
+
 }
 </script>
 

@@ -1,64 +1,25 @@
 <template>
     <div>
-        <section id="testimonials" class=" py-8">
-            <div class="container max-w-5xl mx-auto m-8">
-                <div v-for="testimonial in testimonials" class="inline-flex">
-                     <div class="quote" >
-                         <span class="qmark qleft">❝</span>
-                         <blockquote>
-                             {{ testimonial.comment }}
-                             <br><br>
-                             <footer><small>{{ testimonial.name }}</small></footer>
-                         </blockquote>
-                         <span class="qmark qright">❞</span>
-                     </div>
-                 </div>
-            </div>
-            <div>
-                <a class="text-center text-blue-800" href="">View more Reviews</a>
-                <br>
-                <br>
-
-                <button
-                    @click="showModal"
-                    class="gradient rounded text-white font-bold py-2 px-4 rounded-full">
-                    Submit a Review
-                </button>
+        <section id="testimonials" class="py-10">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none m-3">
+                What Do Our Clients Think Of Us?
+            </h3>
+            <div class="relative slide">
+                <div class="carousel-inner relative overflow-hidden w-full">
+                    <div v-for="(testimonial, i) in testimonials" :id="`slide-${i}`" :key="i" :class="`${active === i ? 'active' : 'left-full'}`" class="carousel-item inset-0 relative w-full transform transition-all duration-500 ease-in-out">
+                        <div class="quote" >
+                            <span class="qmark qleft">❝</span>
+                            <blockquote>
+                                <div v-html="testimonial.comment"></div>
+                                <br><br>
+                                <footer><small>{{ testimonial.name }}</small></footer>
+                            </blockquote>
+                            <span class="qmark qright">❞</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <Modal v-show="isModalVisible" @close="closeModal">
-            <template v-slot:header>
-                <h1 class="font-bold text-xl text-blue-800">Tell us how we are doing!</h1>
-            </template>
-
-            <template v-slot:body>
-                <label class="text-xl text-blue-800">Name:</label>
-                <input
-                    type="text"
-                    v-model="reviewsName"
-                    class="rounded-2xl w-full p-3 my-1 shadow-md outline-none text-blue-800"
-                />
-                <label class="text-xl text-blue-800">Email Address:</label>
-                <input
-                    type="email"
-                    v-model="reviewsEmail"
-                    class="rounded-2xl w-full p-3 my-1 shadow-md outline-none text-blue-800"
-                />
-                <label class="text-xl text-blue-800">Comments:</label>
-                <textarea
-                    id="review"
-                    v-model="reviewsComment"
-                    class="rounded-2xl w-full p-3 my-1 shadow-md outline-none text-blue-800"
-                />
-                <button
-                    type="button"
-                    class="rounded-2xl bg-blue-800 shadow-md p-3 my-1 w-full text-white"
-                    @click="submitTestimonial"
-                >
-                    Submit
-                </button>
-            </template>
-        </Modal>
     </div>
 </template>
 
@@ -66,7 +27,6 @@
 
 import axios from 'axios';
 import Modal from "@/Components/Modal";
-
 export default {
     components: {Modal},
     data() {
@@ -76,9 +36,11 @@ export default {
             reviewsName:null,
             reviewsEmail:null,
             reviewsComment:null,
+            active: 0
 
         }
     },
+
     created() {
         axios.get(`http://localhost/api/testimonials/`)
             .then(response => {
@@ -88,7 +50,17 @@ export default {
                 this.errors.push(e)
             })
     },
-    methods: {
+    mounted() {
+        let i = 0;
+        setInterval(() => {
+            if (i > this.testimonials.length - 1) {
+                i = 0;
+            }
+            this.active = i;
+            i++;
+        }, 5000);
+    },
+        methods: {
         showModal() {
             this.isModalVisible = true;
         },
@@ -103,8 +75,12 @@ export default {
                 })
                 .then((results) => {
                     this.closeModal();
+                    this.name = null;
+                    this.email = null;
+                    this.comment = null;
                 });
         },
+
     }
 }
 </script>
@@ -112,6 +88,22 @@ export default {
 <style scoped>
 .gradient {
     background: linear-gradient(90deg, blue 0%, green 100%);
+}
+.left-full {
+    left: -100%;
+}
+
+.carousel-item {
+    float: left;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+}
+
+.carousel-item.active {
+    left: 0;
 }
 #testimonials {
     background: #fff;
@@ -125,9 +117,9 @@ export default {
     border-radius: 15px;
     border: 2px solid green;
     color: green;
-    width: 320px;
+    width: 70%;
     display: inline-block;
-    margin: 0.8rem;
+    margin: 40px;
 }
 blockquote{
     padding-top: 2rem;

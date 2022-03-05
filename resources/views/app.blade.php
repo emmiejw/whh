@@ -12,7 +12,11 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-
+{{--        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">--}}
+{{--        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">--}}
+{{--        <script src="https://cdn.tiny.cloud/1/bipmow4lkz6ivlma357ta46a3z9l0e2dpuxap9eqizuo2j11/tinymce/5/tinymce.min.js"></script>--}}
+{{--        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>--}}
+{{--        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>--}}
         <!-- Scripts -->
         @routes
         <script src="{{ mix('js/app.js') }}" defer></script>

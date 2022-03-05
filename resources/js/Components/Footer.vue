@@ -18,10 +18,10 @@
                     <p class="uppercase text-gray-500 md:mb-6">Company</p>
                     <ul class="list-reset mb-6">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="tel:07565 428139" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Phone Number</a>
+                            <a href="tel:07565 428139" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Phone Number: 07565 428139</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="mailto:info@watersidehomehelp.co.uk" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Email</a>
+                            <a href="mailto:info@watersidehomehelp.co.uk" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Email: info@watersidehomehelp.co.uk</a>
                         </li>
                     </ul>
                 </div>

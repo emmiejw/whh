@@ -24,6 +24,8 @@
         <CompanyDetails></CompanyDetails>
         <Gallery></Gallery>
         <Testimonials></Testimonials>
+        <Updates></Updates>
+        <Documents></Documents>
         <!-- Change the colour #f8fafc to match the previous section colour -->
         <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -66,9 +68,13 @@ import CompanyDetails from "@/Components/CompanyDetails";
 import Footer from "@/Components/Footer";
 import Action from "@/Components/Action";
 import Gallery from "@/Components/Gallery";
+import Updates from "@/Components/Updates";
+import Documents from "@/Components/Documents";
 
 export default {
     components: {
+        Documents,
+        Updates,
         Gallery,
         Action,
         Footer,
