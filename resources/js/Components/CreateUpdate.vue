@@ -22,18 +22,41 @@
                 <button
                     @click="submitUpdate()"
                     type="button"
-                    class="rounded-2xl bg-blue-800 shadow-md p-3 my-1 w-2/6 text-white mt-5">
+                    class="gradient font-bold rounded-2xl shadow-md p-3 my-1 w-2/6 text-white mt-5">
                     Add Update
                 </button>
             </form>
+            <h1 class="text-xl text-blue-800 my-2">All Updates</h1>
+            <table class="table-auto border-2 border-green-800 p-2">
+               <thead>
+                   <tr class="table-auto border-2 border-green-800 p-2">
+                       <td class="table-auto border-2 border-green-800 p-2">Title</td>
+                       <td class="table-auto border-2 border-green-800 p-2">Content</td>
+                       <td class="table-auto border-2 border-green-800 p-2">Edit</td>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr class="table-auto border-2 border-green-800 p-2" v-for="update in updates">
+                       <td class="table-auto border-2 border-green-800 p-2">{{ update.title }}</td>
+                       <td class="table-auto border-2 border-green-800 p-2">{{ update.content }}</td>
+                       <td class="table-auto border-2 border-green-800 p-2">
+                           <a class="">
+                               <button class="gradient mx-auto lg:mx-0 hover:underline bg-white text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                   <router-link: to="{name: 'edit', params: {id: update.id}}">
+                                       Edit
+                                   </router-link:>
+                               </button>
+                           </a>
+                       </td>
+                   </tr>
+               </tbody>
+           </table>
         </div>
     </div>
 </template>
 
 <script>
 import axios from "axios";
-import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-import EssentialsPlugin from '@ckeditor/ckeditor5-essentials/src/essentials';
 
 export default {
     data() {
@@ -41,6 +64,7 @@ export default {
             title:null,
             content:null,
             image: null,
+            updates:null
         }
     },
     methods: {
@@ -62,10 +86,22 @@ export default {
             console.log(e.target.files[0]);
             this.image = e.target.files[0];
         },
+
+        getAllUpdates() {
+            axios.get('http://localhost/api/updates')
+            .then((results) => {
+               this.updates = results.data
+            });
+        },
+    },
+    mounted() {
+        this.getAllUpdates();
     }
 }
 </script>
 
 <style scoped>
-
+.gradient {
+    background: linear-gradient(90deg, blue 0%, green 100%);
+}
 </style>

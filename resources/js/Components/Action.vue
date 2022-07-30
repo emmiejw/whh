@@ -1,6 +1,6 @@
 <template>
     <div id="contact">
-        <section class="container mx-auto text-center py-6 mb-12">
+        <section class="container mx-auto text-center p-6 mb-6">
             <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-white">
                 For more information or to discuss what we can do for YOU
             </h1>

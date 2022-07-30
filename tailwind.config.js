@@ -14,6 +14,13 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
         },
+        animation: {
+            'spin-slow': 'spin 5s linear infinite',
+            'ping-slow': 'ping 5s cubic-bezier(1, 1, 0.2, 1) infinite',
+            'pulse': 'pulse 5s linear infinite',
+            'bonce-slow': 'bounce 3s linear infinite'
+
+        }
     },
 
     variants: {

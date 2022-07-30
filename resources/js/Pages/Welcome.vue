@@ -22,7 +22,9 @@
             </svg>
         </div>
         <CompanyDetails></CompanyDetails>
+        <Staff id="staff"></Staff>
         <Gallery></Gallery>
+        <Highlights></Highlights>
         <Testimonials></Testimonials>
         <Updates></Updates>
         <Documents></Documents>
@@ -70,9 +72,12 @@ import Action from "@/Components/Action";
 import Gallery from "@/Components/Gallery";
 import Updates from "@/Components/Updates";
 import Documents from "@/Components/Documents";
+import Highlights from "@/Components/Highlights";
+import Staff from "@/Components/Staff";
 
 export default {
     components: {
+        Highlights,
         Documents,
         Updates,
         Gallery,
@@ -82,6 +87,7 @@ export default {
         Hero,
         NavBar,
         CompanyDetails,
+        Staff,
       Head,
       Link,
     },

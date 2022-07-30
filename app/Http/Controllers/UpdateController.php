@@ -27,4 +27,15 @@ class UpdateController extends Controller
         $update->save();
         return response()->json('Update created!');
     }
+
+    public function update($id, Request $request) {
+        $update = Update::find($id);
+        $update->update($request->all());
+        return response()->json('Update updated!');
+    }
+    public function destroy($id) {
+        $update = Update::find($id);
+        $update->delete();
+        return response()->json('Update deleted!');
+    }
 }
