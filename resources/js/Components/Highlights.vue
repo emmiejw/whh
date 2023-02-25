@@ -79,15 +79,6 @@
                 </div>
             </div>
         </div>
-        <div class="gradient">
-            <div class="container max-w-5xl mx-auto py-8 text-center text-white">
-                <b>COVID-19</b>
-                <p>
-                    We are taking all necessary precautions as a business to protect both our clients and our Helpers during this time and even though the rules have been changed we are maintaining our usual vigilance with regards to the COVID-19 pandemic.
-                    Our helpers will wear a mask on entering your home and will keep these on throughout their visit.
-                </p>
-            </div>
-        </div>
     </section>
 </div>
 </template>

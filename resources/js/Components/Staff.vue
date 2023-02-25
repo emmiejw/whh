@@ -17,26 +17,6 @@
             <div class="flex flex-wrap">
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Anita Fox
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/anita.jpg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Anita has a Level 3 Diploma in Health and Social care and has many years experience working within the care sector. She has worked in both Nursing and Dementia care as well as having recently worked in housekeeping and cleaning. Anita has a warm and caring nature which makes her perfect for this role.
-                        <br>
-                    </p>
-                    <p class="text-gray-600 mb-4">
-                        <b>Some wonderful feedback from Anita’s client’s families:</b>
-                        <br><br>
-                        “She is like a demon cleaning, we couldnt be happier”
-                        <br><br>
-                        “Dad is loving having anita in, he looks forward to seeing her”
-                        <br>
-                    </p>
-                </div>
-                <div class="w-5/6 sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Lara
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
@@ -46,8 +26,7 @@
                         Details about Lara coming soon ....
                     </p>
                 </div>
-                <Line></Line>
-                <div class="w-full sm:w-1/2 p-6">
+                <div class="w-5/6 sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Wendy
                     </h3>
@@ -57,7 +36,8 @@
                     <p class="text-gray-600 mb-4">
                         Details about Wendy coming soon ....
                     </p>
-                 </div>
+                </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Liz
