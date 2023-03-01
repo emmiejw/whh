@@ -43,11 +43,17 @@ export default {
     },
     methods: {
         submitTestimonial() {
-            axios.post('http://localhost/api/testimonials/', {
+            const config = {
+                headers: {
+                    'Content-Type': 'application/json;charset=UTF-8',
+                    'Access-Control-Allow-Origin': 'localhost:82, watersidehomehelp.uk'
+                }
+            }
+            axios.post('/api/testimonials', {
                 name: this.reviewersName,
                 email: this.reviewersEmail,
                 comment: this.reviewersComment,
-            })
+            }, config)
                 .then((results) => {
                     this.reviewersName = null;
                     this.reviewersEmail = null;

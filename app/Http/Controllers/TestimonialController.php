@@ -16,6 +16,9 @@ class TestimonialController extends Controller
     {
         $testimonial = new Testimonial(['name' => $request->input('name'), 'comment' => $request->input('comment') ]);
         $testimonial->save();
-        return response()->json('Review created!');
+        return response()
+            ->json('Review created!')
+            ->header('Access-Control-Allow-Origin', '*')
+            ->header('Access-Control-Allow-Methods', 'POST');
     }
 }

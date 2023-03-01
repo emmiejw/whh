@@ -3,7 +3,7 @@
         <div class="w-4/5 p-4 align-middle">
             <h1 class="text-xl text-blue-800">Create a Update</h1>
             <br>
-            <form  enctype="multipart/form-data">
+            <form enctype="multipart/form-data">
                 <label class="text-xl text-blue-800">Title:</label>
                 <input
                     type="text"
@@ -43,7 +43,7 @@
                            <a class="">
                                <button class="gradient mx-auto lg:mx-0 hover:underline bg-white text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                    <router-link: to="{name: 'edit', params: {id: update.id}}">
-                                       Edit
+                                       Edit (not quite working yet)
                                    </router-link:>
                                </button>
                            </a>
@@ -72,14 +72,25 @@ export default {
             const data = new FormData();
             data.append('title', this.title);
             data.append('content', this.content);
-            data.append('image', this.image);
+            if(this.image) {
+                data.append('image', this.image);
+            }
 
-            axios.post('http://localhost/api/updates', data)
+            const config = {
+                headers: {
+                    'Content-Type': 'application/json;charset=UTF-8',
+                    'Access-Control-Allow-Origin': 'localhost:82, watersidehomehelp.uk'
+                }
+            }
+
+            axios.post('/api/updates', data, config)
                 .then((results) => {
                     console.log(results);
                     this.title = null;
                     this.content = null;
-                    this.image = null;
+                    if (this.image) {
+                        this.image = null;
+                    }
                 });
         },
         onImageChange(e){
@@ -88,7 +99,13 @@ export default {
         },
 
         getAllUpdates() {
-            axios.get('http://localhost/api/updates')
+            const config = {
+                headers: {
+                    'Content-Type': 'application/json;charset=UTF-8',
+                    'Access-Control-Allow-Origin': 'localhost:82, watersidehomehelp.uk'
+                }
+            }
+            axios.get('/api/updates', config)
             .then((results) => {
                this.updates = results.data
             });

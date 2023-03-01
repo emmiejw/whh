@@ -42,7 +42,7 @@ export default {
     },
 
     created() {
-        axios.get(`http://localhost/api/testimonials/`)
+        axios.get(`/api/testimonials/`)
             .then(response => {
                 this.testimonials = response.data
             })
@@ -68,7 +68,7 @@ export default {
             this.isModalVisible = false;
         },
         submitTestimonial() {
-            axios.post('http://localhost/api/testimonials/', {
+            axios.post('/api/testimonials/', {
                 name: this.reviewsName,
                 email: this.reviewsEmail,
                 comment: this.reviewsComment,
