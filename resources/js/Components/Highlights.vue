@@ -46,7 +46,7 @@
                         </div>
                         <div class="text-center">
                             <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
-                                Here at Waterside Home Help one of our services we provide is to offer companionship to our clients. Whether this involves assistance and company around the home, assistance with shopping and errands or a trip out to a cafe or garden centre.
+                                Here at Waterside Home Help Limited one of our services we provide is to offer companionship to our clients. Whether this involves assistance and company around the home, assistance with shopping and errands or a trip out to a cafe or garden centre.
                                 Many families are struggling to juggle the task of maintaining their jobs and homes and providing support to an elderly parent or relative too!
                             </p>
                         </div>

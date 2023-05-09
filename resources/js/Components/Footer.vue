@@ -29,7 +29,7 @@
                     <p class="uppercase text-gray-500 md:mb-6">Website</p>
                     <ul class="list-reset mb-6">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                           <span class="text-gray-800">Designed and Crafted by </span><a href="https://emilywallace-price.co.uk/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Emily Wallace - Price</a>
+                           <span class="text-gray-800">Designed and Created by </span><a href="https://emilywallace-price.co.uk/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Emily Wallace - Price</a>
                         </li>
                     </ul>
                 </div>

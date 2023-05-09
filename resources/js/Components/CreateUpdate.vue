@@ -11,12 +11,13 @@
                     class="rounded-2xl w-full p-3 my-1 shadow-md outline-none text-blue-800"
                 />
 
+                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                     src="../Pages/images/carbon.png">
+                <br>
                 <label class="text-xl text-blue-800">Content:</label>
-                <textarea
-                    id="review"
-                    v-model="content"
-                    class="rounded-2xl w-full p-3 my-1 shadow-md outline-none text-blue-800"
-                />
+                <br>
+                <div class="rounded-2xl w-full p-3 my-1 shadow-md outline-none" contenteditable="true" @keydown.enter.prevent="insertLineBreak" @blur="updateContent" v-html="content"></div>
+
                 <input type="file" class="form-control mt-5" v-on:change="onImageChange">
                 <br>
                 <button
@@ -57,17 +58,54 @@
 
 <script>
 import axios from "axios";
+import CKEditor from '@ckeditor/ckeditor5-vue';
 
 export default {
+    components: {CKEditor},
     data() {
         return {
             title:null,
-            content:null,
+            content: "<h1>Some initial content</h1>",
             image: null,
-            updates:null
+            updates:null,
         }
     },
     methods: {
+        insertLineBreak() {
+            const range = document.createRange()
+            const selection = window.getSelection()
+            range.setStart(selection.anchorNode, selection.anchorOffset)
+            range.setEnd(selection.anchorNode, selection.anchorOffset)
+            range.insertNode(document.createElement('br'))
+            range.setStartAfter(range.endContainer)
+            range.setEndAfter(range.startContainer)
+            selection.removeAllRanges()
+            selection.addRange(range)
+            this.updateContent()
+        },
+        createList(listType) {
+            const range = document.createRange()
+            const selection = window.getSelection()
+            const list = document.createElement(listType)
+            const listItems = prompt("Enter list items separated by a newline:")
+            const items = listItems.split(/\r?\n/)
+            items.forEach(item => {
+                const li = document.createElement('li')
+                li.textContent = item.trim()
+                list.appendChild(li)
+            })
+            range.setStart(selection.anchorNode, selection.anchorOffset)
+            range.setEnd(selection.anchorNode, selection.anchorOffset)
+            range.insertNode(list)
+            range.setStartAfter(range.endContainer)
+            range.setEndAfter(range.startContainer)
+            selection.removeAllRanges()
+            selection.addRange(range)
+            this.updateContent()
+        },
+        updateContent(event) {
+            this.content = event.target.innerHTML
+        },
         submitUpdate(event) {
             const data = new FormData();
             data.append('title', this.title);
@@ -120,5 +158,16 @@ export default {
 <style scoped>
 .gradient {
     background: linear-gradient(90deg, blue 0%, green 100%);
+}
+.editor {
+    width: 100%;
+}
+
+.result_content {
+    background-color: #7CFC00;
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 </style>

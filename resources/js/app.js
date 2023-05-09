@@ -15,7 +15,8 @@ createInertiaApp({
         return createApp({ render: () => h(app, props) })
             .use(plugin)
             .use( CKEditor )
-            .mixin({ methods: { route } })
+
+    .mixin({ methods: { route } })
             .mount(el);
     },
 });

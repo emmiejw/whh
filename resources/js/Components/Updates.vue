@@ -5,7 +5,7 @@
                     Updates
                 </h3>
                 <p class="text-xl text-white leading-none m-7 text-center">
-                    "Keep up to date with useful information from the team here at Waterside Home Help"
+                    "Keep up to date with useful information from the team here at Waterside Home Help Limited"
                 </p>
                 <div class="flow-root">
                     <ul role="list">

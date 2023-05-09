@@ -16,7 +16,7 @@
                     <path d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
-            Waterside Home Help
+            Waterside Home Help Limited
         </div>
         <div class="flex items-center">
             <div class="hidden md:block md:flex md:justify-between md:bg-transparent">
@@ -72,7 +72,7 @@
       <span
           class="flex w-full items-center p-4 border-b"
           @click="isOpen = false"
-      > Waterside Home Help
+      > Waterside Home Help Limited
 
       </span>
             <span
