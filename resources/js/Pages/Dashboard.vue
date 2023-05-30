@@ -15,6 +15,9 @@
                     <br>
                     <hr>
                     <CreateTestimonial></CreateTestimonial>
+                    <br>
+                    <hr>
+                    <create-staff-member />
                 </div>
             </div>
         </div>
@@ -27,9 +30,11 @@ import { Head } from '@inertiajs/inertia-vue3';
 import Updates from "@/Components/Updates";
 import CreateUpdate from "@/Components/CreateUpdate";
 import CreateTestimonial from "@/Components/CreateTestimonial"
+import CreateStaffMember from "@/Components/createStaffMember.vue";
 
 export default {
     components: {
+        CreateStaffMember,
         CreateUpdate,
         CreateTestimonial,
         Updates,

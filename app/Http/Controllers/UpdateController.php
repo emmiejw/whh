@@ -37,15 +37,16 @@ class UpdateController extends Controller
         return response()->json('Update created!');
     }
 
-
-    public function update($id, Request $request) {
+    public function update($id, Request $request): \Illuminate\Http\JsonResponse
+    {
         $update = Update::find($id);
         $update->update($request->all());
         return response()->json('Update updated!');
     }
-    public function destroy($id) {
-        $update = Update::find($id);
+    public function destroy(Update $update): \Illuminate\Http\JsonResponse
+    {
         $update->delete();
-        return response()->json('Update deleted!');
+
+        return response()->json(null, 204);
     }
 }

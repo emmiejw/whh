@@ -21,4 +21,10 @@ class TestimonialController extends Controller
             ->header('Access-Control-Allow-Origin', '*')
             ->header('Access-Control-Allow-Methods', 'POST');
     }
+    public function destroy(Testimonial $testimonial): \Illuminate\Http\JsonResponse
+    {
+        $testimonial->delete();
+
+        return response()->json(null, 204);
+    }
 }

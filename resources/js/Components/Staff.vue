@@ -6,64 +6,59 @@
                     Our Staff
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    We have a wonderful team of helpers here at Waterside Home Help Limited. All of our helpers are  fully trained, insured and hold enhanced DBS checks.
+                    We have a wonderful team of helpers here at Waterside Home Help Limited. All of our helpers are fully trained, insured, and hold enhanced DBS checks.
                     <br />
-                    Our staff all wear uniforms, which we find ensures they are easily recognisable to our clients.
-
+                    Our staff all wear uniforms, which we find ensures they are easily recognizable to our clients.
                 </p>
             </div>
             <Line></Line>
-
             <div class="flex flex-wrap">
-                <div class="w-full sm:w-1/2 p-6">
+                <div v-for="member in members" :key="member.id" class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lara
+                        {{ member.name }}
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/staff1.jpeg" alt="">
+                        <img class="rounded-t-lg sm:h-52 lg:h-80 xl:h-96 w-full mt-3" v-bind:src="'/images/' + member.image" alt="">
                     </div>
-                    <p class="text-gray-600 mb-4">
-                        Details about Lara coming soon ....
-                    </p>
-                </div>
-                <div class="w-5/6 sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Wendy
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/staff2.jpeg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Details about Wendy coming soon ....
-                    </p>
-                </div>
-                <Line></Line>
-                <div class="w-full sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Liz
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/liz.jpeg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Details about Liz coming soon ....
+                    <p class="text-gray-600 mb-4" v-html="member.description">
                     </p>
                 </div>
             </div>
+            <Line></Line>
         </div>
     </section>
 </template>
 
 <script>
 import Line from "./Line";
+import axios from "axios";
 export default {
     name: "Staff",
-    components: { Line}
-}
+    components: { Line },
+    data() {
+        return {
+            members: null,
+        };
+    },
+    created() {
+        axios.get(`/api/staff-members`)
+            .then(response => {
+                console.log(response.data);
+                this.members = response.data;
+            })
+            .catch(e => {
+                this.errors.push(e);
+            });
+    },
+    methods: {
+        getImageUrl(filename) {
+            return process.env.BASE_URL + 'images/' + filename;
+        }
+    }
+};
 </script>
 
 <style scoped>
-
 .ruth {
     top: -1rem;
     /*left: -1.3rem;*/
