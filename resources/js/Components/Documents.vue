@@ -1,8 +1,14 @@
 <template>
     <div class="flex flex-col items-center justify-center bg-white p4">
-        <p class="text-xl text-blue-800 text-center mt-5">Useful Information</p>
-        <br>
-        <p class="text-blue-800 text-center mt-5">Policies and Documents Coming Soon . . . .</p>
+        <p class="text-xl text-blue-800 text-center mt-5 mb-5">Useful Information</p>
+        <div class="grid grid-cols-2 gap-4 mb-5">
+            <div class="text-blue-800">
+                <a class="text-blue-800" href="/documents/privacy policy for WHH.docx" title="Privacy Policy for WHH">Privacy Policy for WHH</a>
+            </div>
+            <div class="text-blue-800">
+                <a class="text-blue-800" title="WHH Terms of Service" href="/documents/Waterside Home Help terms of service for client.docx">WHH Terms of Service</a>
+            </div>
+        </div>
     </div>
 </template>
 
