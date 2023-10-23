@@ -20,7 +20,7 @@
                         Ruth
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/ruth.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/Ruth2.png" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
                         I am a mum to four children. 3 girls and a little boy. I’ve lived in the Waterside all of my life and have spent many years caring for people. My most recent job was as as a Senior Care Lead in a nursing home. Here I quickly realised how easily an elderly person can lose their independence due to age and illness. I've spent a lifetime looking after others, it's what I do best and what I am passionate about so being able to support people to continue to live their lives the way they want to, in their own homes is what makes me happy.
