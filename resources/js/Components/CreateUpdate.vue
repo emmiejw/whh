@@ -140,16 +140,15 @@ export default {
             const data = new FormData();
             data.append('title', this.title);
             data.append('content', this.content);
-            if(this.image) {
+            if (this.image) {
                 data.append('image', this.image);
             }
 
             const config = {
                 headers: {
-                    'Content-Type': 'application/json;charset=UTF-8',
-                    'Access-Control-Allow-Origin': 'localhost:82, watersidehomehelp.uk'
+                    'Access-Control-Allow-Origin': 'http://localhost:82, http://watersidehomehelp.uk'
                 }
-            }
+            };
 
             axios.post('/api/updates', data, config)
                 .then((results) => {
@@ -165,7 +164,7 @@ export default {
                     if (error.response && error.response.data) {
                         let errorMessage = error.response.data.message;
                         if (errorMessage === 'Undefined variable $image_new_name') {
-                            this.error = 'Please add a image';
+                            this.error = 'Please add an image';
                         } else {
                             this.error = 'Please add content';
                         }
@@ -173,7 +172,6 @@ export default {
                         this.error = 'An error occurred.';
                     }
                 });
-
         },
         onImageChange(e){
             console.log(e.target.files[0]);
