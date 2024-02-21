@@ -28,40 +28,75 @@
                         So in March 2021 Waterside Home Help was born. Now 2 years on we have an amazing team of Helpers assisting our clients throughout the Waterside. We are a close team and I couldn't be prouder of how far we have come. It is abundantly apparent in the testimonials that our helpers make a massive difference to their clients lives and reading the information given by the helpers it is also apparent the affect the clients have on us.
                     </p>
                 </div>
-<!--                <div class="w-5/6 sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        Wendy-->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--                        <img class="rounded-lg" src="../Pages/images/staff2.jpeg" alt="">-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--                        Details about Wendy coming soon ....-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <Line></Line>-->
-<!--                <div class="w-full sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        Liz-->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--                        <img class="rounded-lg" src="../Pages/images/liz.jpeg" alt="">-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--                        Details about Liz coming soon ....-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <div class="w-full sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        Lara-->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--                        <img class="rounded-lg" src="../Pages/images/staff1.jpeg" alt="">-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--                        Details about Lara coming soon ....-->
-<!--                    </p>-->
-<!--                </div>-->
+                <div class="w-5/6 sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Gemma
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/gemma.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        My name is Gemma, <br>
+                        I'm a married mother of 4 daughters. I have lived in the waterside my entire life and spent many years as a carer,
+                        then the past 9 years at Tesco, my favourite parts of both jobs was to assist people with household chores, shopping and socialising.
+                        I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing.
+                        I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any
+                        musical theatre show I can. I love the west end; my ultimate dream would be to see a show in Broadway.
+                    </p>
+                </div>
+                <Line></Line>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Mandy
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/mandy.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hi I’m Mandy <br>
+                        I have three lovely children and four beautiful grandchildren. I love going for walks in the forest with my two dogs.
+                        I enjoy my job as I get to meet so many lovely people and every day is different
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Lucy
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/lucy.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hi my name is Lucy, <br>
+                        I live with my partner and 2 children. I have previously worked in domiciliary care
+                        and have been with Waterside home help since May 2023. I am enjoying conversations with lots of different
+                        people and enjoy helping them live independently.
+                    </p>
+                </div>
+                <Line></Line>
+
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Liz
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/liz.jpeg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Details about Liz coming soon ....
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Lara
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/lara.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Details about Lara coming soon ....
+                    </p>
+                </div>
+                <Line></Line>
             </div>
         </div>
     </section>
