@@ -79,7 +79,7 @@
                         Liz
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/liz.jpeg" alt="">
+                        <img class="rounded-lg" style="height: 13.2rem;" src="../Pages/images/liz.jpeg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
                         Details about Liz coming soon ....
