@@ -97,6 +97,29 @@
                     </p>
                 </div>
                 <Line></Line>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Emma
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Details about Emma coming soon ....
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Sarah
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/sarah.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Details about Sarah coming soon ....
+                    </p>
+                </div>
+                <Line></Line>
             </div>
         </div>
     </section>
