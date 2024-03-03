@@ -1,19 +1,6 @@
 <template>
     <section class="bg-white border-b py-8">
         <div class="container max-w-5xl mx-auto m-8">
-            <div class="m-4">
-                <h3 class="text-center text-3xl text-gray-800 font-bold leading-none mb-3">
-                    Our Staff
-                </h3>
-                <p class="text-gray-600 mb-8">
-                    We have a wonderful team of helpers here at Waterside Home Help Limited. All of our helpers are  fully trained, insured and hold enhanced DBS checks.
-                    <br />
-                    Our staff all wear uniforms, which we find ensures they are easily recognisable to our clients.
-
-                </p>
-            </div>
-            <Line></Line>
-
             <div class="flex flex-wrap">
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
@@ -30,21 +17,62 @@
                 </div>
                 <div class="w-5/6 sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Gemma
+                        Kelly
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/gemma.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/kelly.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        My name is Gemma, <br>
-                        I'm a married mother of 4 daughters. I have lived in the waterside my entire life and spent many years as a carer,
-                        then the past 9 years at Tesco, my favourite parts of both jobs was to assist people with household chores, shopping and socialising.
-                        I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing.
-                        I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any
-                        musical theatre show I can. I love the west end; my ultimate dream would be to see a show in Broadway.
+                        Details about Kelly coming soon ....
                     </p>
                 </div>
                 <Line></Line>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Lara
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/lara.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        I'm a Mum to 2 children and have lived in the waterside area my entire life.
+                        I really love my job it is everything I ever wanted. I love feeling as though I have made
+                        a difference to my clients day, whether it is cleaning, shopping or just having a good chat.
+                        I used to work in retail and so have had lots of experience with helping elderly clients and chatting
+                        to them too but I never felt fulfilled. Now I really do and couldn't imagine ever working anywhere else.
+                    </p>
+                </div>
+                <div class="w-5/6 sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Liz
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/liz.jpg">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hi my name is Liz. <br>
+                        I'm mum to 3 lovely children and nanny to 2 gorgeous grandchildren.
+                        I lived in Wales for 20 years but returned home to the waterside 3 years ago. I love gardening and summer time is my favourite time of year.
+                        I have worked for water side home help for nearly 2 years and what I enjoy most is that every day is a different day. It is so rewarding knowing
+                        I have been able to make a difference to my clients lives.
+                    </p>
+                </div>
+                <Line></Line>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Amanda
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/amanda.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hi I am Amanda <br>  I am married  with 3 children and I have got 4 granddaughters.I have been working
+                        for Waterside Home Help for nearly a year and a half after working  as a lunchtime  assistant  for 10 year
+                        I decided  to have a change in my life  and change jobs for the better and it is the  best thing that I done
+                        I am loving my job and seeing the smile we but on are clients faces  knowing  we all made a difference to there
+                        day to day life really is rewarding.
+                    </p>
+                </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Mandy
@@ -58,6 +86,7 @@
                         I enjoy my job as I get to meet so many lovely people and every day is different
                     </p>
                 </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Lucy
@@ -72,31 +101,69 @@
                         people and enjoy helping them live independently.
                     </p>
                 </div>
-                <Line></Line>
-
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Liz
+                        Debbie
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" style="height: 13.2rem;" src="../Pages/images/liz.jpeg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/debbie.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Details about Liz coming soon ....
+                        Hi my name is Debbie <br>
+                        I'm married, I have 2 children and 4 grandchildren I also have 2 Labradors which I enjoy walking over the forest .
+                        I love my job as I enjoy chatting and putting a smile on peoples faces .
+                    </p>
+                </div>
+                <Line></Line>
+                <div class="w-5/6 sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Gemma
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/gemma.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        My name is Gemma, <br>
+                        I'm a married mother of 4 daughters. I have lived in the waterside my entire life and spent many years as a carer,
+                        then the past 9 years at Tesco, my favourite parts of both jobs was to assist people with household chores, shopping and socialising.
+                        I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing.
+                        I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any
+                        musical theatre show I can. I love the west end; my ultimate dream would be to see a show in Broadway.
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lara
+                        Sarah
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/lara.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/sarah.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Details about Lara coming soon ....
+                        My name is Sarah. I am a married Mum to 3 older children and 2 dogs. I have lived in the Waterside area
+                        my whole life and really love living here near to the New Forest and the beautiful beaches. <br>
+                        My hobbies include walking my dogs, eating out, travelling and Zumba. I used to work in care when my children were
+                        much younger and found it really rewarding and after helping to care for my Dad recently I realised just how much I
+                        missed helping others who are less capable than myself. So I looked  for an additional job and found Waterside Home Help -
+                        I'm thoroughly enjoying being back in the care sector. Ruth and her team are so friendly and supportive and all the clients are so lovely.
                     </p>
                 </div>
                 <Line></Line>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Lindsey
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/lindsey.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hi I’m Lindsey, <br>
+                        I live with my husband and 3 beautiful children. We have a lovely little dog called Lily
+                        who we enjoy walking with in the new forest.  I love spending time with family and friends, most weekends
+                        are taken up standing beside a football pitch watching our kids doing what they love.
+                        The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little
+                        jobs to help  them stay living independently within their home.
+                    </p>
+                </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Emma
@@ -108,18 +175,20 @@
                         Details about Emma coming soon ....
                     </p>
                 </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Sarah
+                        Ellisha
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/sarah.jpg" alt="">
+<!--                        <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">-->
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Details about Sarah coming soon ....
+                        Details about Ellisha coming soon ....
                     </p>
                 </div>
                 <Line></Line>
+
             </div>
         </div>
     </section>
@@ -127,28 +196,11 @@
 
 <script>
 import Line from "./Line";
+import StaffBanner from "@/Components/StaffBanner.vue";
 export default {
     name: "Staff",
-    components: { Line}
+    components: {StaffBanner, Line}
 }
 </script>
 
-<style scoped>
-
-.ruth {
-    top: -1rem;
-    /*left: -1.3rem;*/
-    float: left;
-    z-index: 0;
-    position: relative;
-}
-
-.anita {
-    right: -1.3rem;
-    top: 3rem;
-    float: right;
-    z-index: 0;
-    position: relative;
-}
-</style>
 

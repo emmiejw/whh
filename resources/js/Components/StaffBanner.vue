@@ -1,8 +1,16 @@
 <template>
     <div class="pt-16 pb-6">
         <div class="container px-3 py-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+
             <p class="leading-normal text-2xl text-center mb-8">
-                Here at <b>Waterside Home Help Limited</b> we provide a bespoke range of services to meet the individual needs of our customers
+               <strong style="font-size: 32px;">
+                   Our Staff
+               </strong>
+                <br>
+                We have a wonderful team of helpers here at Waterside Home Help Limited. All of our helpers are  fully trained, insured and hold enhanced DBS checks.
+                <br />
+                Our staff all wear uniforms, which we find ensures they are easily recognisable to our clients.
+
             </p>
         </div>
     </div>
@@ -29,7 +37,7 @@
 
 <script>
 export default {
-    name: "Hero"
+    name: "StaffBanner"
 }
 </script>
 
