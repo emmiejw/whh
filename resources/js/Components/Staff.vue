@@ -35,7 +35,7 @@
                         <img class="rounded-lg" src="../Pages/images/lara.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        I'm a Mum to 2 children and have lived in the waterside area my entire life.
+                        I'm a Mum to 2 children and have lived in the Waterside area my entire life.
                         I really love my job it is everything I ever wanted. I love feeling as though I have made
                         a difference to my clients day, whether it is cleaning, shopping or just having a good chat.
                         I used to work in retail and so have had lots of experience with helping elderly clients and chatting
@@ -51,9 +51,9 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         Hi my name is Liz. <br>
-                        I'm mum to 3 lovely children and nanny to 2 gorgeous grandchildren.
-                        I lived in Wales for 20 years but returned home to the waterside 3 years ago. I love gardening and summer time is my favourite time of year.
-                        I have worked for water side home help for nearly 2 years and what I enjoy most is that every day is a different day. It is so rewarding knowing
+                        I'm a Mum to 3 lovely children and Nanny to 2 gorgeous grandchildren.
+                        I've lived in Wales for 20 years but returned home to the Waterside 3 years ago. I love gardening and summer time is my favourite time of year.
+                        I have worked for Waterside Home Help for nearly 2 years and what I enjoy most is that every day is a different day. It is so rewarding knowing
                         I have been able to make a difference to my clients lives.
                     </p>
                 </div>
@@ -66,10 +66,10 @@
                         <img class="rounded-lg" src="../Pages/images/amanda.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Hi I am Amanda <br>  I am married  with 3 children and I have got 4 granddaughters.I have been working
-                        for Waterside Home Help for nearly a year and a half after working  as a lunchtime  assistant  for 10 year
-                        I decided  to have a change in my life  and change jobs for the better and it is the  best thing that I done
-                        I am loving my job and seeing the smile we but on are clients faces  knowing  we all made a difference to there
+                        Hi I am Amanda <br>  I am married  with 3 children and 4 granddaughters.I have been working
+                        for Waterside Home Help for nearly a year and a half after working as a lunchtime assistant for 10 year
+                        I decided to have a change in my life and change jobs for the better and it is the  best thing that I done
+                        I am loving my job and seeing the smile we but on are clients faces knowing we all made a difference to there
                         day to day life really is rewarding.
                     </p>
                 </div>
@@ -97,7 +97,7 @@
                     <p class="text-gray-600 mb-4">
                         Hi my name is Lucy, <br>
                         I live with my partner and 2 children. I have previously worked in domiciliary care
-                        and have been with Waterside home help since May 2023. I am enjoying conversations with lots of different
+                        and have been with Waterside Home Help since May 2023. I am enjoying conversations with lots of different
                         people and enjoy helping them live independently.
                     </p>
                 </div>
@@ -110,7 +110,7 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         Hi my name is Debbie <br>
-                        I'm married, I have 2 children and 4 grandchildren I also have 2 Labradors which I enjoy walking over the forest .
+                        I'm married, I have 2 children and 4 grandchildren I also have 2 Labradors, which I enjoy walking over the forest.
                         I love my job as I enjoy chatting and putting a smile on peoples faces .
                     </p>
                 </div>
@@ -124,8 +124,8 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         My name is Gemma, <br>
-                        I'm a married mother of 4 daughters. I have lived in the waterside my entire life and spent many years as a carer,
-                        then the past 9 years at Tesco, my favourite parts of both jobs was to assist people with household chores, shopping and socialising.
+                        I'm a married mother of 4 daughters. I have lived in the Waterside my entire life and spent many years as a carer,
+                        then the past 9 years at Tescos, my favourite parts of both jobs was to assist people with household chores, shopping and socialising.
                         I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing.
                         I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any
                         musical theatre show I can. I love the west end; my ultimate dream would be to see a show in Broadway.
@@ -158,7 +158,7 @@
                     <p class="text-gray-600 mb-4">
                         Hi I’m Lindsey, <br>
                         I live with my husband and 3 beautiful children. We have a lovely little dog called Lily
-                        who we enjoy walking with in the new forest.  I love spending time with family and friends, most weekends
+                        who we enjoy walking with in the new forest. I love spending time with family and friends, most weekends
                         are taken up standing beside a football pitch watching our kids doing what they love.
                         The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little
                         jobs to help  them stay living independently within their home.
