@@ -23,7 +23,8 @@
                         <img class="rounded-lg" src="../Pages/images/kelly.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Details about Kelly coming soon ....
+                        My name is Kelly, <br>
+                        I have two children aged 22 and 17 I joined the company in August 2021 as I really wanted to help others . I love the feeling of seeing the clients faces when I arrive. For some clients I am the only person they will see. I enjoy everything from a game of scrabble to some cleaning and everything in-between it really does make a difference to the clients which makes this job so rewarding.
                     </p>
                 </div>
                 <Line></Line>
