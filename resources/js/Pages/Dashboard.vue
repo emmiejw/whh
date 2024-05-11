@@ -11,7 +11,9 @@
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <create-update></create-update>
+                    <div v-if="$page.props.bladeTemplate">
+                        <component :is="$page.props.bladeTemplate.name" :data="$page.props.bladeTemplate.data"></component>
+                    </div>
                     <br>
                     <hr>
                     <CreateTestimonial></CreateTestimonial>
@@ -40,6 +42,9 @@ export default {
         Updates,
         BreezeAuthenticatedLayout,
         Head,
+    },
+    props: {
+        bladeTemplate: Object // Define the prop to receive Blade template data
     },
 }
 </script>

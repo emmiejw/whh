@@ -23,6 +23,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
     Route::middleware('api')->group(function () {
         Route::resource('testimonials', TestimonialController::class);
-        Route::resource('updates', UpdateController::class);
+        Route::resource('updates', UpdateController::class)->only('index');
         Route::resource('staff-members', StaffController::class);
     });

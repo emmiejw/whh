@@ -24,7 +24,7 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         My name is Kelly, <br>
-                        I have two children aged 22 and 17 I joined the company in August 2021 as I really wanted to help others . I love the feeling of seeing the clients faces when I arrive. For some clients I am the only person they will see. I enjoy everything from a game of scrabble to some cleaning and everything in-between it really does make a difference to the clients which makes this job so rewarding.
+                        I have two children aged 22 and 17. I joined the company in August 2021 as I really wanted to help others. I love the feeling of seeing the clients faces when I arrive. For some clients I am the only person they will see. I enjoy everything from a game of scrabble to some cleaning and everything in-between it really does make a difference to the clients which makes this job so rewarding.
                     </p>
                 </div>
                 <Line></Line>
@@ -67,7 +67,7 @@
                         <img class="rounded-lg" src="../Pages/images/amanda.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Hi I am Amanda <br>   I am married with three children and I have got four granddaughters  .I have been working  for Waterside Home Help since July 2022. I worked as a lunchtime assistant  for 10 years before that and I decided I wanted to make a change in my life and it is the best thing that I have done. I love my job and seeing the smile we put on our client’s faces and  knowing  we all made a difference to their day to day life really is rewarding.
+                        Hi I am Amanda <br>   I am married with three children and I have got four granddaughters. I have been working for Waterside Home Help since July 2022. I worked as a lunchtime assistant for 10 years before that and I decided I wanted to make a change in my life and it is the best thing that I have done. I love my job and seeing the smile we put on our client’s faces and  knowing  we all made a difference to their day to day life really is rewarding.
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
@@ -79,7 +79,7 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         Hi I’m Mandy <br>
-                        I have three lovely children and four beautiful grandchildren. I love going for walks in the forest with my two dogs. Ijave worked for Waterside Home Help since July 2022.
+                        I have three lovely children and four beautiful grandchildren. I love going for walks in the forest with my two dogs. I have worked for Waterside Home Help since July 2022.
                         I enjoy my job as I get to meet so many lovely people and every day is different.
                     </p>
                 </div>
@@ -93,7 +93,7 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         Hi my name is Lucy, <br>
-                        I live with my partner and two children. I have previously worked in domilicary care and have been with Waterside Home Help since May 2023. I am enjoying conversations with lots of different people and enjoy helping them live independently.
+                        I live with my partner and two children. I have previously worked in domiciliary care and have been with Waterside Home Help since May 2023. I am enjoying conversations with lots of different people and enjoy helping them live independently.
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
@@ -130,7 +130,7 @@
                     </div>
                     <p class="text-gray-600 mb-4">
                         My name is Sarah. <br>
-                        I am a married mum to three older children and I have two dogs. I have lived in the Waterside area my whole life and really love living here near to the New Forest and the beautiful beaches. My hobbies include walking my dogs, eating out, travelling and Zumba. I used to work in care when my children were much younger and found it really rewarding and after helping to care for my dad recently. I realised just how much I missed helping others who are less capable than myself. This is when I found Waterside Home Help- I’m thoroughly enjoying being back in the social care sector. Ruth and the team are so friendly and supportive and all the clients are really lovely.
+                        I am a married mum to three older children and I have two dogs. I have lived in the Waterside area my whole life and really love living here near to the New Forest and the beautiful beaches. My hobbies include walking my dogs, eating out, travelling and Zumba. I used to work in care when my children were much younger and found it really rewarding and after helping to care for my dad recently. I realised just how much I missed helping others who are less capable than myself. This is when I found Waterside Home Help - I’m thoroughly enjoying being back in the social care sector. Ruth and the team are so friendly and supportive and all the clients are really lovely.
                     </p>
                 </div>
                 <Line></Line>
@@ -144,7 +144,7 @@
                     <p class="text-gray-600 mb-4">
                         Hi I’m Lindsey, <br>
                         I live with my husband and 3 beautiful children. We have a lovely little dog called Lily who we enjoy walking with in the new forest.  I love spending time with family and friends, most weekends are taken up standing beside a football pitch watching our kids doing what they love.
-                        The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little jobs to help  them stay living independently within their home.
+                        The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little jobs to help them stay living independently within their home.
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
@@ -155,24 +155,27 @@
                         <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        My name is Emma. <br> I have lived in this area my whole life. I am married to a lovely man, and we have two fab children, who are both in their 20's. We also have a small dog called Buddie.
-                        I really enjoy meeting people, and I love to have a chat. I have personal experience of living with someone with Alzheimers,  which has taught me how to be patient, kind, and caring. I absolutely love my job supporting people to live independently in their own homes.
-
+                        My name is Emma. <br> I have lived in this area my whole life. I am married to a lovely man and we have two fab children, who are both in their 20's. We also have a small dog called Buddie.
+                        I really enjoy meeting people and I love to have a chat. I have personal experience of living with someone with Alzheimer's, which has taught me how to be patient, kind, and caring. I absolutely love my job supporting people to live independently in their own homes.
                     </p>
                 </div>
                 <Line></Line>
-<!--                <div class="w-full sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        Ellisha-->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--&lt;!&ndash;                        <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">&ndash;&gt;-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--                        Details about Ellisha coming soon ....-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <Line></Line>-->
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Ellisha
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/ellisha.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hi I'm Ellisha, <br>
+                        I'm a Mum to a 6 year old little girl. <br>
+                        I have lived in the waterside area my own life and love this place so much.
+                        I have experience in cleaning, care and retail so this job is everything I could ever
+                        wish for and I am enjoying every second. I joined the company in February 2024.
+                    </p>
+                </div>
+                <Line></Line>
 
             </div>
         </div>
