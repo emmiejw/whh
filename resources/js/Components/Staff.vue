@@ -6,6 +6,9 @@
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Ruth
                     </h3>
+                    <h4 class="text-xl text-gray-800 font-bold leading-none mb-3">
+                        Owner/Manager
+                    </h4>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
                         <img class="rounded-lg" src="../Pages/images/Ruth2.png" alt="">
                     </div>
@@ -19,6 +22,9 @@
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Kelly
                     </h3>
+                    <h4 class="text-xl text-gray-800 font-bold leading-none mb-3">
+                        Assistant Manager
+                    </h4>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
                         <img class="rounded-lg" src="../Pages/images/kelly.jpg" alt="">
                     </div>
@@ -28,10 +34,28 @@
                     </p>
                 </div>
                 <Line></Line>
+                <div class="w-5/6 sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Gemma
+                    </h3>
+                    <h4 class="text-xl text-gray-800 font-bold leading-none mb-3">
+                        Field Supervisor
+                    </h4>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/gemma.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        My name is Gemma, <br>
+                        I'm a married mother of 4 daughters. I have lived in The Waterside my entire life and spent many years as a carer, then the past 9 years at Tesco. I have been working for Waterside Home Help since August 2023, my favourite parts of both jobs was to assist people with household chores, shopping and socialising. I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing. I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any musical theatre shows I can. I love The West End; my ultimate dream would be to see a show in Broadway.
+                    </p>
+                </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Lara
                     </h3>
+                    <h4 class="text-xl text-gray-800 font-bold leading-none mb-3">
+                        Senior Helper
+                    </h4>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
                         <img class="rounded-lg" src="../Pages/images/lara.jpg" alt="">
                     </div>
@@ -44,6 +68,7 @@
                         I’ve worked for Waterside Home Help since December 2021.
                     </p>
                 </div>
+                <Line></Line>
                 <div class="w-5/6 sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Liz
@@ -58,7 +83,6 @@
 
                     </p>
                 </div>
-                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Amanda
@@ -70,6 +94,7 @@
                         Hi I am Amanda <br>   I am married with three children and I have got four granddaughters. I have been working for Waterside Home Help since July 2022. I worked as a lunchtime assistant for 10 years before that and I decided I wanted to make a change in my life and it is the best thing that I have done. I love my job and seeing the smile we put on our client’s faces and  knowing  we all made a difference to their day to day life really is rewarding.
                     </p>
                 </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Mandy
@@ -83,7 +108,6 @@
                         I enjoy my job as I get to meet so many lovely people and every day is different.
                     </p>
                 </div>
-                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Lucy
@@ -96,6 +120,7 @@
                         I live with my partner and two children. I have previously worked in domiciliary care and have been with Waterside Home Help since May 2023. I am enjoying conversations with lots of different people and enjoy helping them live independently.
                     </p>
                 </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Debbie
@@ -108,19 +133,7 @@
                         I'm married, I have two children and four grandchildren. I also have two Labradors which I enjoy walking over the forest. I started working for Waterside Home Help in June 2023. I love my job as I enjoy chatting and putting a smile on peoples faces.
                     </p>
                 </div>
-                <Line></Line>
-                <div class="w-5/6 sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Gemma
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/gemma.jpg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        My name is Gemma, <br>
-                        I'm a married mother of 4 daughters. I have lived in The Waterside my entire life and spent many years as a carer, then the past 9 years at Tesco. I have been working for Waterside Home Help since August 2023, my favourite parts of both jobs was to assist people with household chores, shopping and socialising. I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing. I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any musical theatre shows I can. I love The West End; my ultimate dream would be to see a show in Broadway.
-                    </p>
-                </div>
+
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Sarah
