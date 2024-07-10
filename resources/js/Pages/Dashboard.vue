@@ -17,9 +17,6 @@
                     <br>
                     <hr>
                     <CreateTestimonial></CreateTestimonial>
-                    <br>
-                    <hr>
-                    <create-staff-member />
                 </div>
             </div>
         </div>
