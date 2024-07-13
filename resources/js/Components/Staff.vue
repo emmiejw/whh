@@ -10,7 +10,7 @@
                         Owner/Manager
                     </h4>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/Ruth2.png" alt="">
+                        <img class="rounded-lg" src="../Pages/images/ruth-manager.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
                         I am a mum to four children. 3 girls and a little boy. I’ve lived in the Waterside all of my life and have spent many years caring for people. My most recent job was as as a Senior Care Lead in a nursing home. Here I quickly realised how easily an elderly person can lose their independence due to age and illness. I've spent a lifetime looking after others, it's what I do best and what I am passionate about so being able to support people to continue to live their lives the way they want to, in their own homes is what makes me happy.
@@ -186,6 +186,23 @@
                         I have lived in the waterside area my own life and love this place so much.
                         I have experience in cleaning, care and retail so this job is everything I could ever
                         wish for and I am enjoying every second. I joined the company in February 2024.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Jo
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/jo.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Hello I’m Jo, <br>
+                        I’m a single mum to two daughters and a Labrador called Moose. I have lived in the waterside area
+                        my whole life and feel very lucky to have the beach and the forest so close by, I like to spend
+                        as much time as possible out in the fresh air whatever the weather. <br>
+                        I have Experience in care, (dementia and stroke) customer service, retail and cleaning.
+                        I love this job because I get to help and support people to live independently in their own homes and meet
+                        so many lovely people along the way.
                     </p>
                 </div>
                 <Line></Line>
