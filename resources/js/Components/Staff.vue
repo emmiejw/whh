@@ -175,36 +175,31 @@
                 <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Ellisha
+                        Kelly
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/ellisha.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/kelly2.png" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Hi I'm Ellisha, <br>
-                        I'm a Mum to a 6 year old little girl. <br>
-                        I have lived in the waterside area my own life and love this place so much.
-                        I have experience in cleaning, care and retail so this job is everything I could ever
-                        wish for and I am enjoying every second. I joined the company in February 2024.
+                        My name is Kelly, <br>
+                        I'm a Mum of 4 beautiful children, 2 boys and 2 girls. <br>
+                        In my spare time I enjoy family time, whether that is days out or a walk on the forest with my
+                        3 amazing dogs Ron, Reg and Bella. <br>
+                        I'm also a part time dog walker and love going down the gym and lifting weights. I have competed in
+                        a couple of competitions. I also love cardio and making sure I'm fit and healthy for my children. <br>
                     </p>
                 </div>
-                <div class="w-full sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Jo
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/jo.jpg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Hello I’m Jo, <br>
-                        I’m a single mum to two daughters and a Labrador called Moose. I have lived in the waterside area
-                        my whole life and feel very lucky to have the beach and the forest so close by, I like to spend
-                        as much time as possible out in the fresh air whatever the weather. <br>
-                        I have Experience in care, (dementia and stroke) customer service, retail and cleaning.
-                        I love this job because I get to help and support people to live independently in their own homes and meet
-                        so many lovely people along the way.
-                    </p>
-                </div>
+<!--                <div class="w-full sm:w-1/2 p-6">-->
+<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
+<!--                        -->
+<!--                    </h3>-->
+<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
+<!--                        <img class="rounded-lg" src="../Pages/images/" alt="">-->
+<!--                    </div>-->
+<!--                    <p class="text-gray-600 mb-4">-->
+<!--    -->
+<!--                    </p>-->
+<!--                </div>-->
                 <Line></Line>
 
             </div>
