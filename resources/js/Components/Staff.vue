@@ -160,35 +160,35 @@
                         The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little jobs to help them stay living independently within their home.
                     </p>
                 </div>
-                <div class="w-full sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Emma
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        My name is Emma. <br> I have lived in this area my whole life. I am married to a lovely man and we have two fab children, who are both in their 20's. We also have a small dog called Buddie.
-                        I really enjoy meeting people and I love to have a chat. I have personal experience of living with someone with Alzheimer's, which has taught me how to be patient, kind, and caring. I absolutely love my job supporting people to live independently in their own homes.
-                    </p>
-                </div>
-                <Line></Line>
-                <div class="w-full sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Kelly
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/kelly2.png" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        My name is Kelly, <br>
-                        I'm a Mum of 4 beautiful children, 2 boys and 2 girls. <br>
-                        In my spare time I enjoy family time, whether that is days out or a walk on the forest with my
-                        3 amazing dogs Ron, Reg and Bella. <br>
-                        I'm also a part time dog walker and love going down the gym and lifting weights. I have competed in
-                        a couple of competitions. I also love cardio and making sure I'm fit and healthy for my children. <br>
-                    </p>
-                </div>
+<!--                <div class="w-full sm:w-1/2 p-6">-->
+<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
+<!--                        Emma-->
+<!--                    </h3>-->
+<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
+<!--                        <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">-->
+<!--                    </div>-->
+<!--                    <p class="text-gray-600 mb-4">-->
+<!--                        My name is Emma. <br> I have lived in this area my whole life. I am married to a lovely man and we have two fab children, who are both in their 20's. We also have a small dog called Buddie.-->
+<!--                        I really enjoy meeting people and I love to have a chat. I have personal experience of living with someone with Alzheimer's, which has taught me how to be patient, kind, and caring. I absolutely love my job supporting people to live independently in their own homes.-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <Line></Line>-->
+<!--                <div class="w-full sm:w-1/2 p-6">-->
+<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
+<!--                        Kelly-->
+<!--                    </h3>-->
+<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
+<!--                        <img class="rounded-lg" src="../Pages/images/kelly2.png" alt="">-->
+<!--                    </div>-->
+<!--                    <p class="text-gray-600 mb-4">-->
+<!--                        My name is Kelly, <br>-->
+<!--                        I'm a Mum of 4 beautiful children, 2 boys and 2 girls. <br>-->
+<!--                        In my spare time I enjoy family time, whether that is days out or a walk on the forest with my-->
+<!--                        3 amazing dogs Ron, Reg and Bella. <br>-->
+<!--                        I'm also a part time dog walker and love going down the gym and lifting weights. I have competed in-->
+<!--                        a couple of competitions. I also love cardio and making sure I'm fit and healthy for my children. <br>-->
+<!--                    </p>-->
+<!--                </div>-->
 <!--                <div class="w-full sm:w-1/2 p-6">-->
 <!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
 <!--                        -->
@@ -201,7 +201,6 @@
 <!--                    </p>-->
 <!--                </div>-->
                 <Line></Line>
-
             </div>
         </div>
     </section>
