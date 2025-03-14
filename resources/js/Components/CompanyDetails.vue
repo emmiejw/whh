@@ -19,6 +19,8 @@
                                 <br><br>
                                 We offer a <b>Sitting Service</b> to allow respite and provide reassurance for the family and friends of our customers.
                                 <br><br>
+                                We also provide a dog walking services for furry friends.
+                                <br><br>
                                 We guarantee a specific time for each and every visit and the same helper will visit you each time.
                                 <br><br>
                                 We can arrange an initial visit to come and discuss your individual requirements and to introduce ourselves. Putting a face to the name really helps to reassure our clients. We understand that it can be difficult adjusting to the idea of having someone come into your home and we want to ensure the process is as smooth and stress free as possible.
