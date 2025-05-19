@@ -39,7 +39,7 @@
                         Lara
                     </h3>
                     <h4 class="text-xl text-gray-800 font-bold leading-none mb-3">
-                        Senior Helper
+                        Field Supervisor
                     </h4>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
                         <img class="rounded-lg" src="../Pages/images/lara.jpg" alt="">
