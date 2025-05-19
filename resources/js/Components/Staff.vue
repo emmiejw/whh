@@ -10,12 +10,12 @@
                         Owner/Manager
                     </h4>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/ruth-manager.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/ruth-office.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
                         I am a mum to four children. 3 girls and a little boy. I’ve lived in the Waterside all of my life and have spent many years caring for people. My most recent job was as as a Senior Care Lead in a nursing home. Here I quickly realised how easily an elderly person can lose their independence due to age and illness. I've spent a lifetime looking after others, it's what I do best and what I am passionate about so being able to support people to continue to live their lives the way they want to, in their own homes is what makes me happy.
                         The pandemic changed the way we were able to care for our aging relatives and I realised there was a 'gap' in the care sector. Many people are able to cope independently with their personal care needs but need that extra bit of assistance with things like housework, changing bed linen, preparing meals, transport to appointments, shopping or just spending time playing games or chatting over a cup of tea.
-                        So in March 2021 Waterside Home Help was born. Now 2 years on we have an amazing team of Helpers assisting our clients throughout the Waterside. We are a close team and I couldn't be prouder of how far we have come. It is abundantly apparent in the testimonials that our helpers make a massive difference to their clients lives and reading the information given by the helpers it is also apparent the affect the clients have on us.
+                        So in March 2021 Waterside Home Help was born. We now have an amazing team of Helpers assisting our clients throughout the Waterside. We are a close team and I couldn't be prouder of how far we have come. It is abundantly apparent in the testimonials that our helpers make a massive difference to their clients lives and reading the information given by the helpers it is also apparent the affect the clients have on us.
                     </p>
                 </div>
                 <div class="w-5/6 sm:w-1/2 p-6">
@@ -34,21 +34,6 @@
                     </p>
                 </div>
                 <Line></Line>
-                <div class="w-5/6 sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Gemma
-                    </h3>
-                    <h4 class="text-xl text-gray-800 font-bold leading-none mb-3">
-                        Field Supervisor
-                    </h4>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/gemma.jpg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        My name is Gemma, <br>
-                        I'm a married mother of 4 daughters. I have lived in The Waterside my entire life and spent many years as a carer, then the past 9 years at Tesco. I have been working for Waterside Home Help since August 2023, my favourite parts of both jobs was to assist people with household chores, shopping and socialising. I live for making people happy and comfortable so to find a role that joined the best parts of both roles together has been amazing. I am bubbly and chatty plus have a love for carpet lines and shiny taps. My hobbies are spending time with my family and going to any musical theatre shows I can. I love The West End; my ultimate dream would be to see a show in Broadway.
-                    </p>
-                </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Lara
@@ -66,21 +51,6 @@
                         I used to work in retail and so have had lots of experience with helping elderly clients and chatting
                         to them too but I never felt fulfilled. Now I really do and couldn't imagine ever working anywhere else.
                         I’ve worked for Waterside Home Help since December 2021.
-                    </p>
-                </div>
-                <Line></Line>
-                <div class="w-5/6 sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Liz
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/liz.jpg">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Hi my name is Liz. <br> I'm a Mum to three lovely children and a Nanny to two gorgeous grandchildren.
-                        I lived in Wales for 20 years but returned home to The Waterside three years ago. I love gardening and summer time is my favourite time of year.
-                        I have worked for Waterside Home Help since March 2022 and what I enjoy most is that every day is a different day. It is so rewarding knowing I have been able to make a difference to my client’s lives.
-
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
@@ -160,46 +130,50 @@
                         The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little jobs to help them stay living independently within their home.
                     </p>
                 </div>
-<!--                <div class="w-full sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        Emma-->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--                        <img class="rounded-lg" src="../Pages/images/emma.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--                        My name is Emma. <br> I have lived in this area my whole life. I am married to a lovely man and we have two fab children, who are both in their 20's. We also have a small dog called Buddie.-->
-<!--                        I really enjoy meeting people and I love to have a chat. I have personal experience of living with someone with Alzheimer's, which has taught me how to be patient, kind, and caring. I absolutely love my job supporting people to live independently in their own homes.-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <Line></Line>-->
-<!--                <div class="w-full sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        Kelly-->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--                        <img class="rounded-lg" src="../Pages/images/kelly2.png" alt="">-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--                        My name is Kelly, <br>-->
-<!--                        I'm a Mum of 4 beautiful children, 2 boys and 2 girls. <br>-->
-<!--                        In my spare time I enjoy family time, whether that is days out or a walk on the forest with my-->
-<!--                        3 amazing dogs Ron, Reg and Bella. <br>-->
-<!--                        I'm also a part time dog walker and love going down the gym and lifting weights. I have competed in-->
-<!--                        a couple of competitions. I also love cardio and making sure I'm fit and healthy for my children. <br>-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <div class="w-full sm:w-1/2 p-6">-->
-<!--                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">-->
-<!--                        -->
-<!--                    </h3>-->
-<!--                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">-->
-<!--                        <img class="rounded-lg" src="../Pages/images/" alt="">-->
-<!--                    </div>-->
-<!--                    <p class="text-gray-600 mb-4">-->
-<!--    -->
-<!--                    </p>-->
-<!--                </div>-->
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Jodi
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/jodi.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        My name is Jodi, <br>
+                        I work mainly in the office but am often out and about taking clients
+                        to various appointments. <br>I also work part-time in The Royal British Legion. I enjoy
+                        the variety both jobs bring. <br>I enjoy dinners out with friends and long walks, mainly
+                        with my mum who is Ruth, the manager.
+                    </p>
+                </div>
+                <Line></Line>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Toni
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/toni.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        My name is Toni. <br>
+                        I have 2 teenage daughters and my elderly mum of 91 also lives with me. I have lived in the Waterside area all my life.
+                        <br>
+                        I have spent many years working in the care sector, from domiciliary to palliative care and also trained and worked for SCAS on ambulance. I have always enjoyed making a difference and helping with everyday care and have met some wonderful people along the way.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Liv
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/liv.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        I have been working for Waterside Home Help since March 2025. I live
+                        with my partner and have lived in the Waterside my whole life. <br> I enjoy spending
+                        time with my family and friends and going on long walks in The New Forest.
+                        I love my job and find that helping others is so rewarding.
+                    </p>
+                </div>
                 <Line></Line>
             </div>
         </div>
