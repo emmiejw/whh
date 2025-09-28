@@ -106,59 +106,71 @@
 
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Sarah
+                        Deborah
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/sarah.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/DEBORAH-2025-09.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        My name is Sarah. <br>
-                        I am a married mum to three older children and I have two dogs. I have lived in the Waterside area my whole life and really love living here near to the New Forest and the beautiful beaches. My hobbies include walking my dogs, eating out, travelling and Zumba. I used to work in care when my children were much younger and found it really rewarding and after helping to care for my dad recently. I realised just how much I missed helping others who are less capable than myself. This is when I found Waterside Home Help - I’m thoroughly enjoying being back in the social care sector. Ruth and the team are so friendly and supportive and all the clients are really lovely.
+                        My name is Deborah. <br>
+                        I have been living in the Waterside area for the past 11 years
+                        with my partner Jon. I have two children and two grandchildren.
+                        I have over a decade of care experience, specifically helping people live well with their
+                        dementia, and being there to support family members as well. I enjoy meeting new
+                        people, and getting to know all about them, and their life experiences. I have worked at
+                        Waterside Home Help since August 2025.
                     </p>
                 </div>
                 <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lindsey
+                        Emma
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/lindsey.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/EMMA-2025-09.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        Hi I’m Lindsey, <br>
-                        I live with my husband and 3 beautiful children. We have a lovely little dog called Lily who we enjoy walking with in the new forest.  I love spending time with family and friends, most weekends are taken up standing beside a football pitch watching our kids doing what they love.
-                        The thing I enjoy most about my job is getting to meet so many lovely people and being able to help with little jobs to help them stay living independently within their home.
+                        My name is Emma. <br>
+                        I am mum to two grown up children and two gorgeous granddaughters who I love to spend time
+                        with.
+                        I recently joined Waterside Home Help after working in an office for 12 years. I decided I wanted
+                        a more active, rewarding and fulfilling job and my new role has certainly delivered.
+                        Every day is different and I get to meet a variety of interesting people from all walks of life.
+                        Whether it's spending time chatting over a cuppa, shopping, trips out or helping to make their
+                        homes sparkle, each visit is important and worthwhile.
+                        I like to think that in just a short amount of time I can brighten someone's day and help them to
+                        feel valued, respected and appreciated.
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Jodi
+                        Julie
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/jodi.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/JULIE-2025-09.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        My name is Jodi, <br>
-                        I work mainly in the office but am often out and about taking clients
-                        to various appointments. <br>I also work part-time in The Royal British Legion. I enjoy
-                        the variety both jobs bring. <br>I enjoy dinners out with friends and long walks, mainly
-                        with my mum who is Ruth, the manager.
+                        Hi I’m Julie, <br>
+                        I have 4 grown up Children and 3 Grandchildren, we all spend lots of time together.
+                        I have lived here all my life and worked for my family for years as well as care work.
+                        I have recently joined Waterside home help and have met some lovely people, I know I’m going to love
+                        this job helping and caring for them x
                     </p>
                 </div>
                 <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Toni
+                        Carly
                     </h3>
                     <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/toni.jpg" alt="">
+                        <img class="rounded-lg" src="../Pages/images/CARLY-2025-09.jpg" alt="">
                     </div>
                     <p class="text-gray-600 mb-4">
-                        My name is Toni. <br>
-                        I have 2 teenage daughters and my elderly mum of 91 also lives with me. I have lived in the Waterside area all my life.
-                        <br>
-                        I have spent many years working in the care sector, from domiciliary to palliative care and also trained and worked for SCAS on ambulance. I have always enjoyed making a difference and helping with everyday care and have met some wonderful people along the way.
-                    </p>
+                        Hi, I’m Carly! <br>
+                        I’m a mum of four and a proud grandmother of two. I love being outdoors, especially going for walks, and spending time with my family.
+                        Before becoming a home help, I worked as a nurse for 20 years, so caring for people has always been a big part of my life.
+                        I really enjoy meeting new people and find it so rewarding to be able to help make their day a little easier and brighter
+                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
