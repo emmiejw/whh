@@ -103,7 +103,21 @@
                         I'm married, I have two children and four grandchildren. I also have two Labradors which I enjoy walking over the forest. I started working for Waterside Home Help in June 2023. I love my job as I enjoy chatting and putting a smile on peoples faces.
                     </p>
                 </div>
-
+                <div class="w-full sm:w-1/2 p-6">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Liv
+                    </h3>
+                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
+                        <img class="rounded-lg" src="../Pages/images/liv.jpg" alt="">
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        I have been working for Waterside Home Help since March 2025. I live
+                        with my partner and have lived in the Waterside my whole life. <br> I enjoy spending
+                        time with my family and friends and going on long walks in The New Forest.
+                        I love my job and find that helping others is so rewarding.
+                    </p>
+                </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Deborah
@@ -121,7 +135,6 @@
                         Waterside Home Help since August 2025.
                     </p>
                 </div>
-                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Emma
@@ -142,6 +155,7 @@
                         feel valued, respected and appreciated.
                     </p>
                 </div>
+                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Julie
@@ -157,7 +171,6 @@
                         this job helping and caring for them x
                     </p>
                 </div>
-                <Line></Line>
                 <div class="w-full sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                         Carly
@@ -171,20 +184,6 @@
                         Before becoming a home help, I worked as a nurse for 20 years, so caring for people has always been a big part of my life.
                         I really enjoy meeting new people and find it so rewarding to be able to help make their day a little easier and brighter
                      </p>
-                </div>
-                <div class="w-full sm:w-1/2 p-6">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Liv
-                    </h3>
-                    <div class="w-full sm:w-1/2 p-6 rounded-lg float-right">
-                        <img class="rounded-lg" src="../Pages/images/liv.jpg" alt="">
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        I have been working for Waterside Home Help since March 2025. I live
-                        with my partner and have lived in the Waterside my whole life. <br> I enjoy spending
-                        time with my family and friends and going on long walks in The New Forest.
-                        I love my job and find that helping others is so rewarding.
-                    </p>
                 </div>
                 <Line></Line>
             </div>
