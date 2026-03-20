@@ -6,7 +6,7 @@
                 <a class="text-blue-800" href="/documents/privacy policy for WHH.docx" title="Privacy Policy for WHH">Privacy Policy for WHH</a>
             </div>
             <div class="text-blue-800">
-                <a class="text-blue-800" title="WHH Terms of Service" href="/documents/Waterside Home Help terms of service for client.docx">WHH Terms of Service</a>
+                <a class="text-blue-800" title="WHH Terms of Service" href="/documents/Waterside Home Help terms of service for client march 2026.docx">WHH Terms of Service</a>
             </div>
         </div>
     </div>
