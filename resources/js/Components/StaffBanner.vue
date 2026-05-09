@@ -7,7 +7,7 @@
                    Our Staff
                </strong>
                 <br>
-                We have a wonderful team of helpers here at Waterside Home Help Limited. All of our helpers are  fully trained, insured and hold enhanced DBS checks.
+                We have a wonderful team of helpers here at South Coast Home Assistance Ltd. All of our helpers are  fully trained, insured and hold enhanced DBS checks.
                 <br />
                 Our staff all wear uniforms, which we find ensures they are easily recognisable to our clients.
 

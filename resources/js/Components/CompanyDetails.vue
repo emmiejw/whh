@@ -1,8 +1,8 @@
 <template>
     <div>
         <section class="bg-white border-b py-8">
-            <div class="container max-w-5xl mx-auto m-8">
-                <img src="../Pages/images/original_logo.png" alt="" class="w-full h-full object-center object-cover">
+            <div class="container max-w-5xl mx-auto">
+                <img src="../Pages/images/logo-may-2026.jpeg" alt="" class="w-full h-full object-center object-cover">
                 <div id="aboutus" class="flex flex-wrap flex-col-reverse sm:flex-row">
                     <div class="w-full sm:w-1/2 p-6 mt-6">
                         <img src="../Pages/images/kitchen.jpg" alt="">
@@ -14,6 +14,8 @@
                             </h3>
                             <p class="text-gray-600 mb-8">
                                 We offer household services such as <b>Cleaning and Assistance with Laundry, Grocery Shopping, Meal Preparation and Transport to and from appointments.</b>
+                                <br><br>
+                                We work alongside Adult Services, GP Surgeries, local Care Companies and Charities across the South.
                                 <br><br>
                                 We also provide <b>Companionship and Welfare checks</b>.
                                 <br><br>

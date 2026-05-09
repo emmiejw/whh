@@ -4,11 +4,13 @@
                 <h3 class="text-3xl text-white font-bold leading-none m-7 text-center">
                     Updates
                 </h3>
-                <p class="text-xl text-white leading-none m-7 text-center">
-                    "Keep up to date with useful information from the team here at Waterside Home Help Limited"
-                </p>
+                <h4 class="text-xl text-white leading-none m-7 text-center">
+                    Coming soon . . .
+<!--                    "Keep up to date with useful information from the team here at South Coast Home Assistance Ltd"-->
+                </h4>
+            <br>
                 <div class="flow-root">
-                    <FacebookFeed pageUrl="https://www.facebook.com/watersidehomehelp/" />
+<!--                    <FacebookFeed pageUrl="https://www.facebook.com/watersidehomehelp/" />-->
                 </div>
             </div>
     </section>
