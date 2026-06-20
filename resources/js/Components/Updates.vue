@@ -5,12 +5,11 @@
                     Updates
                 </h3>
                 <h4 class="text-xl text-white leading-none m-7 text-center">
-                    Coming soon . . .
-<!--                    "Keep up to date with useful information from the team here at South Coast Home Assistance Ltd"-->
+                    "Keep up to date with useful information from the team here at South Coast Home Assistance Ltd"
                 </h4>
             <br>
                 <div class="flow-root">
-<!--                    <FacebookFeed pageUrl="https://www.facebook.com/watersidehomehelp/" />-->
+                    <FacebookFeed pageUrl="https://www.facebook.com/southcoasthomeassistance" />
                 </div>
             </div>
     </section>
