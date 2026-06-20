@@ -1,44 +1,44 @@
 <template>
     <div>
-        <section id="testimonials" class="py-10">
+        <section id="testimonials" class="py-5">
             <h3 class="text-3xl text-gray-800 font-bold leading-none m-3">
                 What Do Our Clients Think Of Us?
             </h3>
             <div class="relative slide">
                 <div class="carousel-inner relative overflow-hidden w-full">
-                    <div v-for="(testimonial, i) in testimonials" :id="`slide-${i}`" :key="i" :class="`${active === i ? 'active' : 'left-full'}`" class="carousel-item inset-0 relative w-full transform transition-all duration-400 ease-in-out">
+                    <div v-for="(testimonial, i) in testimonials" :id="`slide-${i}`" :key="i" :class="`${active === i ? 'active' : 'left-full'}`" class="carousel-item inset-0 relative w-full transform transition-all duration-300 ease-in-out">
                         <div class="quote" >
                             <span class="qmark qleft">❝</span>
                             <blockquote>
                                 <div v-html="testimonial.comment"></div>
                                 <div v-if="testimonial.stars === 1">
-                                    <span style="font-size:400%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
                                 </div>
                                 <div v-if="testimonial.stars === 2">
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
                                 </div>
                                 <div v-if="testimonial.stars === 2">
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
                                 </div>
                                 <div v-if="testimonial.stars === 3">
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
                                 </div>
                                 <div v-if="testimonial.stars === 4">
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
                                 </div>
                                 <div v-if="testimonial.stars === 5">
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
-                                    <span style="font-size:400%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
+                                    <span style="font-size:300%;color:gold;">★</span>
                                 </div>
                                 <footer><small>{{ testimonial.name }}</small></footer>
                             </blockquote>
